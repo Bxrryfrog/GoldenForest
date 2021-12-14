@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  }
+  
+  header {
+  background: url("boom.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.ContentHero {
+  text-align: center;
+  max-width: 300px;
+  padding: 65px;
+  background: rgb(236, 236, 236);
+  outline: 4px double #FFFFFF;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-top: 20vh;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+article {
+  font-size: 25px;
+  margin-top: -1px;
+}
+
+.AboutItemLeft {
+  width: 50%;
+  height: 660px;
+  float:left;
+  overflow: hidden;
+}
+
+.AboutItemLeft img {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -100px;
+}
+
+.AboutItemRight {
+  width: 38%;
+  height: 660px;
+  float: right;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.Signature {
+  font-family: 'Sacramento', cursive;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+/* .portfolio_item {
+  float:left;
+  height:200px;
+  width: 300px;
+  margin-top: 150px;
+  margin-left: 280px;
+ }
+
+ul.portfolio-image li img{
+ height: 100%;
+ width: 100%;
+  
+} */
+
+.description-wrap {
+
+}
+
+ul.portfolio-image {
+  list-style: none;
+}
+
+/* ul.portfolio-image li {
+  display: inline-block;
+}
+
+.portfolio_item2 {
+  float:left;
+  height:200px;
+  width: 300px;
+  margin-top: 51px;
+  margin-left: 90px;
+ }
+
+ul.portfolio-image li img{
+ height: 100%;
+ width: 100%;
+  
+}
+
+.portfolio_item3 {
+  float:left;
+  height:200px;
+  width: 300px;
+  margin-top: 51px;
+  margin-left: 279px;
+ }
+
+ul.portfolio-image li img{
+ height: 100%;
+ width: 100%;
+  
+}
+
+.portfolio_item4 {
+  float:left;
+  height:200px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 100px;
+ }
+
+ul.portfolio-image li img{
+ height: 100%;
+ width: 100%;
+  
+} */
+
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-image div {
+  height: 200px;
+  width: 300px;
+  margin: 10vh 10vw;
+}
+
+.portfolio-image div img{
+  height: 100%; 
+  width: 100%;
+}
+
+#work {
+  background: rgb(219, 255, 204);
+}
+
+.footer-top p{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(205, 227, 255);
+  width: 50%;
+  height: 300px;
+  margin-top: -16px;
+}
+
+.footer-top img{
+  height: 200px;
+  width: 200px;
+  float:right;
+  margin-right: -430px;
+  margin-top: 50px;
+  
+}
+
